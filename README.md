@@ -7,7 +7,7 @@ Based on https://docs.aws.amazon.com/whitepapers/latest/serverless-multi-tier-ar
 Presentation <br>
 Static content is hosted with Cloud Front <br>
 Logic <br>
-Logic of the Application is implemented with Lambda servces. Other options - ECS, EKS etc <br>
+Design Application with different microservices provisoned with Lambda servces. Other options - ECS, EKS etc <br>
 Data <br>
 Data can be hosted based on the data types. It is implemented with Dynamo Db for NoSQL data types.
 Other options based on data tupe - - RDS/OLTP, Redshift/OLAP, S3/static content. 
